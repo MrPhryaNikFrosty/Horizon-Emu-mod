@@ -18,7 +18,7 @@ English
 # Installation 
 
 1. Go to [Releases tab](https://github.com/MrPhryaNikFrosty/Horizon-Emu-mod/releases/), open latest release, download an Apk file and horizonemumodobb.tar file and install it.
-2. Open an application called `Horizon Emu` and grant all request permissions
+2. Open an application called `Horizon Emu` and grant all request permissions. After that, go to 'Settings' tab and terminal shell. Copy and paste the `tar -xf /sdcard/Download/horizonemumodobb.tar -C /data/data/com.antutu.ABenchMark/` and wait for a few seconds until the containers appeared.
 3. Open `Containers` tab, click on `Create a new container`, select name for your container, press `Confirm`, then select settings that you need and click `Done`.
 4. After that update the wine 9.5 and download the scripts in 'Download' tab
 5. Now, run the container. It might take a few minutes to load for the first time
