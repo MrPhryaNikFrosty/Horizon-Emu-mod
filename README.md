@@ -10,18 +10,19 @@ English
 </p>
 
 <p align="center">
-<b>Horizon-Emu</b> is an application that allows you to run Windows x86_64 applications on your Android device.
+<b>Horizon-Emu-mod by Frost</b> is an application that allows you to run Windows x86_64 applications on your Android device.
 </p>
 
 ![GitHub Downloads](https://img.shields.io/github/downloads/HorizonEmuTeam/Horizon-Emu/total?logo=github&label=Total%20Downloads)
 
 # Installation 
 
-1. Go to [Releases tab](https://github.com/HorizonEmuTeam/Horizon-Emu/releases/), open latest release, download an Apk file and install it.
-2. Open an application called `Horizon Emu`, provide all requset permissions, go to `Download` tab, and click on `Update all`, then select scripts version that you need, and in this tab also download Wine version that you want.
+1. Go to [Releases tab](https://github.com/MrPhryaNikFrosty/Horizon-Emu-mod/releases/), open latest release, download an Apk file and horizonemumodobb.tar file and install it.
+2. Open an application called `Horizon Emu` and grant all request permissions
 3. Open `Containers` tab, click on `Create a new container`, select name for your container, press `Confirm`, then select settings that you need and click `Done`.
-4. Run container by clicking on shortcut named `FileManager`.
-5. For on-screen controls use application called InputBridge. To use it, download and install [InputBridge_v0.1.9.9.apk](https://raw.githubusercontent.com/HorizonEmuTeam/Horizon-Emu/main/InputBridge_v0.1.9.9.apk), open an application called `InputBridge` and provide all requested permissions, then press `Import` and select file of your controls profile (in .ibp format).
+4. After that update the wine 9.5 and download the scripts in 'Download' tab
+5. Now, run the container. It might take a few minutes to load for the first time
+6. For on-screen controls use application called InputBridge. To use it, download and install [InputBridge_v0.1.9.9.apk](https://raw.githubusercontent.com/HorizonEmuTeam/Horizon-Emu/main/InputBridge_v0.1.9.9.apk), open an application called `InputBridge` and provide all requested permissions, then press `Import` and select file of your controls profile (in .ibp format).
 In container, InputBridge will be launched automatically.
 
 That's all!
@@ -32,8 +33,8 @@ In the X11 settings tab you will be greeted with settings transferred from Termu
 
 Recommend settings: 
 
-* Screen resolution mode: custom
-* Screen resolution: 960x540
+* Screen resolution mode: exact
+* Screen resolution: 800x600 or 1280x720
 
 Then everything is at the discretion of the user.
 
@@ -62,14 +63,10 @@ Adreno 610, and any other GPU that supports Turnip. CPU with aarch64.
 * Root:
 Root is not required.
 
-# Issues in beta 0.8
-* Removing a container.
+# Issues in 1.0
+* VirGL not available yet
 
 >When deleting a container using the delete container button, the directory of drive D is also deleted, that is, in our case, the download folder. At the same time, the data of the application itself is cleared. ([Normal way to delete a container](https://t.me/HorizonEmuOfficial/434)).
-
-* Lack of VirGL support.
-
->Horizon Emu doesn't support VirGL at this moment.
 
 # Our main goals
 
