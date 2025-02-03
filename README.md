@@ -10,10 +10,14 @@ English
 </p>
 
 <p align="center">
-<b>Horizon-Emu-mod by Frost</b> is an application that allows you to run Windows x86_64 applications on your Android device.
+<b>Horizon-Emu-mod by Frost (discontinued)</b> is an application that allows you to run Windows x86_64 applications on your Android device.
 </p>
 
 ![GitHub Downloads](https://img.shields.io/github/downloads/HorizonEmuTeam/Horizon-Emu/total?logo=github&label=Total%20Downloads)
+
+# Information
+
+This mod has been discontinued due to newly updated of Horizon Emu that add the download-able content feature make it impossible to use it by using my obb because if you use my obb maybe you won't get the my prefix. So I decided to discontinue this mod, we're sorry about that. Please follow my github for more emulation mod project. Thank you for your cooperation
 
 # Installation 
 
